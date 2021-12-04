@@ -39,7 +39,7 @@ Here are some images from the tool:
 
 ![Heat Map of Search Trends](Images/SearchTrendsHeatMap.PNG)
 ![Prophet Search Trend Forecast](Images/ProphetForecast.PNG)
-![Component Plots](Images/ComponentPlot.PNG)
+![Component Plots](Images/ComponentPlots.PNG)
 
 ## Contributors
 Vishnu Kurella, vishnu.kurella@gmail.com
