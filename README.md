@@ -2,37 +2,44 @@
 # Mercado Libre Trends
 
 
-This is a Python-based machine learning tool that looks at Mercado Libre search trends and relationship to stock prices.  The notebook was built using Google Colab.  The analysis is done using FBProphet.  
+This is a Python-based machine learning tool that looks at Mercado Libre search trends and relationship to stock prices.  The notebook was built using Google Colab.  Time series analysis is conducted on the search trend and stock price data to identify potential relationships.  There are visual depictions of seasonality.  Then FBProphet is used to create a time series model forecast of search traffic.  This also allows the user to see trends of the various components in weekly, daily and hourly timeframes.  
 
 ---
 
 ## Technologies
 
-The application is written in Python 3.7 in a Jupyter notebook with support from the following packages:  
+The application is written in Python in a Jupyter notebook in the cloud through Google Colab.  The following packages were utilized:    
 
 *[Pandas] (https://github.com/pandas) - Data Analysis
 
-*[SKLearn] (https://github.com/scikit-learn) - Advanced Data Anaylsis and Machine Learning: KMeans / PCA / StandardScaler
+*[FBProphet] (https://github.com/fbprophet) - Time Series Predictions
 
-*[Path] (https://github.com/path) - CSV File Reading
+*[HoloViews] (https://github.com/holoviews) - Visualizations
 
 *[hvPlot] (https://github.com/hvplot) - Interactive Plotting tools
 
 
 ## Installation Guide
 
-Install hvPlot through the command **conda install -c pyviz hvplot**
+Using Colab, the following lines are needed to install packages:
 
-Install scikit-learn through command **pip install -U scikit-learn**
+Install Pystan through the command **!pip install pystan**
+
+Install FB Prophet through command **!pip install fbprophet**
+
+Install HVPlot through command **!pip install hvplot**
+
+Install Holoviews through command **!pip install holoviews**
 
 ## Usage and Content
 
-To see the analysis, pls clone the repository and open **crypto_investments** in JupyterLab.  
+To see the analysis, pls open the file **forecasting_net_prophet**. 
 
 Here are some images from the tool:
 
-![Elbow Charts for K-means](Images/ElbowPlots.PNG)
-![Crypto Clusters (Original and PCA)](Images/CryptoClusters.PNG)
+![Heat Map of Search Trends](Images/SearchTrendsHeatMap.PNG)
+![Prophet Search Trend Forecast](Images/ProphetForecast.PNG)
+![Component Plots](Images/ComponentPlot.PNG)
 
 ## Contributors
 Vishnu Kurella, vishnu.kurella@gmail.com
